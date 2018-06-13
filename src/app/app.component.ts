@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import {Person} from './person.model'
+
+
 
 @Component({
   selector: 'app-root',
@@ -11,6 +14,12 @@ export class AppComponent {
   count: number =  0;
   imageSource = './../favicon.ico';
   enabled = false;
+
+  juan: Person;
+
+  constructor() {
+    this.juan = new Person ('0', 'Juan Camilo', 25);
+  }
 
   add1() {
     this.count++;

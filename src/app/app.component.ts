@@ -1,4 +1,3 @@
-import { Person } from './person.model';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,12 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  title = 'My Aplication: Homework 1';
+  author: string = 'Alejandro Betancourth';
+  count: number =  0;
+  imageSource = './../favicon.ico';
+  enabled = false;
 
-  alejo: Person;
-
-  constructor(){
-    this.alejo = new Person('1', 'Alejandro B', 30);
-
+  add1() {
+    this.count++;
   }
-
 }

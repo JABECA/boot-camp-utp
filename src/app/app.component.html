@@ -1,5 +1,19 @@
-<h1 style="text-align: center">Hola mundo</h1>
-<h1 style="text-align: center">Objeto json</h1>
-<h1>
-  <pre >{{alejo | json}}</pre>
-</h1>
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+    
+  <!-- Branch #1 -->
+  <h1>Welcome to {{ title }}! by {{author}}</h1>
+  
+    <!--Branch #2  -->
+  <app-my-component></app-my-component>
+  <!-- Branch #3 -->
+  <button (click)="add1()" >Click me</button>
+  <p>{{count}}</p>
+
+  <!-- Branch #4 -->
+  <img [src]="imageSource"><br><br>
+  <!-- my mission -->
+  <button (click)="enabled = !enabled" >Enable/Desable Input: </button>
+  <input type="text" [disabled]="enabled">
+
+</div>

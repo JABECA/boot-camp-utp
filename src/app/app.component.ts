@@ -15,10 +15,10 @@ export class AppComponent {
   imageSource = './../favicon.ico';
   enabled = false;
 
-  juan: Person;
+  alejo: Person;
 
   constructor() {
-    this.juan = new Person ('0', 'Alejandro Betancourth', 30);
+    this.alejo = new Person ('0', 'Alejandro Betancourth', 30);
   }
 
   add1() {

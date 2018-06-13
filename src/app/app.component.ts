@@ -18,7 +18,7 @@ export class AppComponent {
   juan: Person;
 
   constructor() {
-    this.juan = new Person ('0', 'Alejandro Betancourth', 25);
+    this.juan = new Person ('0', 'Alejandro Betancourth', 30);
   }
 
   add1() {
